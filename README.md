@@ -12,7 +12,9 @@ This repository demonstrates a CI/CD pipeline using AWS services to automate the
 
 - **CI/CD Pipeline:**
 
-  - `AWS CodePipeline`: Orchestrates the CI/CD workflow, integrating various AWS services to automate the deployment process. -` AWS CodeCommi`t: Stores the fetched code from GitHub as part of the pipeline's workflow.
+  - `AWS CodePipeline`: Orchestrates the CI/CD workflow, integrating various AWS services to automate the deployment process.
+
+  - `AWS CodeCommit`: Stores the fetched code from GitHub as part of the pipeline's workflow.
   - `AWS CodeDeploy`: Deploys the application to Amazon EC2 instances in the production environment.
 
 - **Infrastructure:**
